@@ -7,7 +7,7 @@ const bgcolor = ['tomato','midnightblue','purple','skyblue','slateblue','mediums
 btn.addEventListener('click',change);
 
 function change(){
-    const ind = Math.floor(Math.random()*7);
+    const ind = Math.floor(Math.random()*6);
     Body.style.backgroundColor = bgcolor[ind];
     txt.style.color = 'white';
 }
